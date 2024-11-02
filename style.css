@@ -114,7 +114,79 @@ a {
     display: inline-block;
 }
   
-  
-  
-  
-  
+ 
+/* STATISTIC SECTION */ 
+
+.statistic_h2 {
+    font-family: var(--font-raleway);
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.statistic_container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.statistic_column {
+    text-align: center;
+    font-family: var(--font-raleway);
+    margin-top: 100px;
+}
+
+.circle {
+    min-height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5em;
+}
+
+
+.circle span {
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 30px;
+    z-index: 1;
+}
+
+.statistic_img {
+    z-index: 2;
+}
+
+.circle_red {
+    background-color: var(--color-redish);
+}
+
+.circle_blue {
+    background-color: var(--color-primary);
+}
+
+.circle_green {
+    background-color: var(--color-green);
+}
+
+.statistic_numbers {
+    font-family: var(--font-raleway);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 6px;
+    margin-top: 15px;
+}
+
+.statistic_text {
+    font-family: var(--font-raleway);
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--color-grey);
+    margin-top: 19px;
+}
+
+/* BENEFITS SECTION */ 
