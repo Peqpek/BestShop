@@ -110,12 +110,16 @@ a {
     background-color: var(--color-primary);
     border-radius: 40px;
     box-shadow: 5px 10px 14px var(--color-primary-shadow);
-    padding: 23px 157px;
+    padding: 22px 157px;
     display: inline-block;
 }
   
  
 /* STATISTIC SECTION */ 
+
+.statistic {
+    display: flex;
+}
 
 .statistic_h2 {
     font-family: var(--font-raleway);
@@ -190,3 +194,54 @@ a {
 }
 
 /* BENEFITS SECTION */ 
+
+.benefits {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-light-grey);
+}
+
+.benefits_container {
+    max-width: 80%;
+}
+
+.benefits_row {
+    display: flex;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    margin-top: 50px;
+    max-height: 370px;
+}
+
+.benefits_img {
+    background-size: contain;
+}
+
+span.path {
+    display: block;
+    height: 4px;
+    width: 330px;
+}
+
+.path_red {
+    background-color: var(--color-redish);
+}
+
+.path_blue {
+    background-color: var(--color-primary);
+}
+
+.path_green {
+    background-color: var(--color-green);
+}
+
+.benefits_h2 {
+    font-family: var(--font-raleway);
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left;
+}
+
+.benefits_par {
+    text-align: left;
+}
