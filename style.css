@@ -28,7 +28,8 @@ a {
     width: 1352px;
     margin: 0 auto;  
 }
-  
+   /* HEADER SECTION */
+
 .header {
     height: 70px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
@@ -43,7 +44,7 @@ a {
 
 .logo {
     font-family: var(--font-raleway);
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: 300;
     color: var(--color-primary);
 }
@@ -73,6 +74,44 @@ a {
 
 .nav__element:last-child {
     padding-right: 0;
+}
+
+
+/* OPENING SECTION */
+
+.opening_img {
+    width: 100%;
+    height: auto;
+}
+.opening {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opening_container {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.opening_h1 {
+    font-family: var(--font-raleway);
+    font-size: 3em;
+}
+  
+.opening_par {
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+
+.opening_btn {
+    color: var(--color-white);
+    font-weight: bold;
+    background-color: var(--color-primary);
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px var(--color-primary-shadow);
+    padding: 23px 157px;
+    display: inline-block;
 }
   
   
